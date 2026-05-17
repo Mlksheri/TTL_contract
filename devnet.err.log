@@ -1,0 +1,13 @@
+G:\Personal files\Blockchain-Docs\TTL_contract\node_modules\starknet-devnet\dist\version-handler.js:57
+                throw new types_1.DevnetError(`Incompatible platform: ${process.platform}`);
+                      ^
+
+DevnetError: Incompatible platform: win32
+    at VersionHandler.getCompatiblePlatform (G:\Personal files\Blockchain-Docs\TTL_contract\node_modules\starknet-devnet\dist\version-handler.js:57:23)
+    at VersionHandler.getArchivedExecutableUrl (G:\Personal files\Blockchain-Docs\TTL_contract\node_modules\starknet-devnet\dist\version-handler.js:80:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async VersionHandler.getExecutable (G:\Personal files\Blockchain-Docs\TTL_contract\node_modules\starknet-devnet\dist\version-handler.js:35:31)
+    at async Devnet.spawnVersion (G:\Personal files\Blockchain-Docs\TTL_contract\node_modules\starknet-devnet\dist\devnet.js:111:25)
+    at async file:///G:/Personal%20files/Blockchain-Docs/TTL_contract/start_devnet.mjs:3:16
+
+Node.js v24.14.1
